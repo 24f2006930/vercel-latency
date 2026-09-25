@@ -81,4 +81,4 @@ def analytics(request: AnalyticsRequest):
             )
         }
 
-    return result
+    return {"regions": result}
